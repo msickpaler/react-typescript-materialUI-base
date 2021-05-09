@@ -7,8 +7,8 @@ module.exports = {
     'airbnb',
     'plugin:react/recommended',
     'plugin:@typescript-eslint/recommended',
-    'plugin:prettier/recommended', // 追記
-    'prettier/@typescript-eslint', // 追記
+    'plugin:prettier/recommended',
+    'prettier',
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
@@ -24,6 +24,5 @@ module.exports = {
       '@typescript-eslint/no-use-before-define': ['error'],
     },
     plugins: ['react', '@typescript-eslint'],
-    rules: {},
   },
 };
