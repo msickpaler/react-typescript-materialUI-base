@@ -1,10 +1,10 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import logo from 'logo.svg';
+import 'App.css';
 
 type Props = Record<string, unknown>;
 
-const App: React.FC<Props> = (props) => {
+const App: React.FC<Props> = () => {
   return (
     <div className="App">
       <header className="App-header">
