@@ -1,1 +1,1 @@
-# highRateMapApp
+# react-typescript-materialUI-base
