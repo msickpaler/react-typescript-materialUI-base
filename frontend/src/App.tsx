@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from 'logo.svg';
 import 'App.css';
+import Button from '@material-ui/core/Button';
 
 type Props = Record<string, unknown>;
 
@@ -20,6 +21,9 @@ const App: React.FC<Props> = () => {
         >
           Learn React
         </a>
+        <Button variant="contained" color="primary">
+          Test
+        </Button>
       </header>
     </div>
   );
