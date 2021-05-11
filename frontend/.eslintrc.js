@@ -23,7 +23,7 @@ module.exports = {
       node: {
         extensions: ['.js', '.jsx', '.ts', '.tsx'],
       },
-      typescript: { project: 'frontend/' },
+      typescript: { project: 'src/' },
     },
   },
   rules: {
